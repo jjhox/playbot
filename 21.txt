@@ -1,0 +1,25 @@
+def turn_right() :
+	repeat("turn_left()", 3)
+
+def turn_around() :
+	repeat("turn_left()", 2)
+
+
+
+
+a = front_is_wall()
+popup("앞쪽 벽 = ", a)
+
+b = left_is_wall() 
+popup("왼쪽 벽 = ", b)
+
+c = right_is_wall()
+popup("오른쪽 벽 = ", c)
+
+d = back_is_wall()
+popup("뒤쪽 벽 = ", d)
+
+move()
+turn_right()
+move()
+pick_object()

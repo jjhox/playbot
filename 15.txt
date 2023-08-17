@@ -1,0 +1,14 @@
+move()
+a = count_object()
+repeat("pick_object()", a)
+
+move()
+b = count_object()
+repeat("pick_object()", b)
+
+move()
+repeat("put_object('꽃')", a)
+move()
+repeat("put_object('딸기')", b)
+move()
+pick_object()

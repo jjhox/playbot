@@ -1,0 +1,18 @@
+name="토마토"
+
+
+move()
+a = count_object()
+repeat("pick_object()", 7)
+
+move()
+b = count_object()
+repeat("pick_object()", 3)
+move()
+
+c=a+b
+
+repeat("put_object(name)", c)
+move()
+pick_object()
+print(c)

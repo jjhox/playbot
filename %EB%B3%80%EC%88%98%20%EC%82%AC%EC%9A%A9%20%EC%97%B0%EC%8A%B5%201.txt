@@ -1,0 +1,44 @@
+a=0
+b=0
+c=0
+
+move()
+
+a = count_object()
+repeat("pick_object()", a)
+
+move()
+move()
+move()
+turn_left()
+
+move()
+b = count_object()
+repeat("pick_object()", b)
+
+move()
+move()
+turn_left()
+move()
+move()
+c = count_object()
+repeat("pick_object()", c)
+
+move()
+move()
+turn_left()
+move()
+move()
+
+turn_left()
+move()
+repeat("put_object('마카롱')", a)
+move()
+move()
+repeat("put_object('딸기')", b)
+turn_left()
+move()
+turn_left()
+move()
+move()
+repeat("put_object('호박')", c)

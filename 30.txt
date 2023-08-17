@@ -1,0 +1,15 @@
+turn_left()
+repeat("move()",2)
+turn_left()
+turn_left()
+turn_left()
+repeat("move()",3)
+
+x=get_x()
+y=get_y()
+name=what_object()
+
+set_color("yellow")
+print("로봇의 x 좌표는",x)
+print("로봇의 y 좌표는",y)
+print(name," 주세요.")

@@ -1,0 +1,8 @@
+for i in range(1, 5):
+    move()
+    c = get_color()
+    say(c)
+
+turn_left()
+move()
+pick_object()

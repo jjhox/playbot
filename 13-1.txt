@@ -1,0 +1,15 @@
+cnt="3"
+name="토마토"
+
+
+move()
+repeat("pick_object()", cnt)
+
+move()
+move()
+
+
+repeat("put_object(name)", cnt)
+
+move()
+pick_object()

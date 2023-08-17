@@ -1,0 +1,20 @@
+move()
+turn_left()
+move()
+
+repeat("pick_beeper()", 4)
+
+repeat("turn_left()", 3)
+repeat("move()", 2)
+
+repeat("turn_left()", 3)
+
+repeat("move()", 1)
+repeat("pick_beeper()", 7)
+
+turn_left()
+move()
+repeat("put_beeper()", 11)
+
+move()
+set_color("blue")

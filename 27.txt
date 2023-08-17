@@ -1,0 +1,26 @@
+def turn_right() :
+	repeat("turn_left()", 3)
+
+def turn_around() :
+	repeat("turn_left()", 2)
+	
+
+cnt=0
+move()
+a = count_beeper()
+
+if (a < 5) :
+	cnt = cnt + a
+	repeat("pick_beeper()", a)
+
+move()
+b = count_beeper()
+
+if (b < 5) :
+	cnt = cnt + b
+	repeat("pick_beeper()", b)
+
+move()
+repeat("put_beeper()", cnt)
+move()
+put_object("도착")

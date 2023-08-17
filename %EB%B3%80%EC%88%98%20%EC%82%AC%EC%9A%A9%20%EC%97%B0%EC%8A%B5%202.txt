@@ -1,0 +1,67 @@
+a=0
+aa=0
+b=0
+bb=0
+c=0
+cc=0
+d=0
+dd=0
+all=0
+
+turn_left()
+move()
+move()
+
+
+a = count_object()
+aa = what_object()
+repeat("pick_object()", a)
+
+turn_left()
+turn_left()
+turn_left()
+move()
+move()
+move()
+
+b = count_object()
+bb = what_object()
+repeat("pick_object()", b)
+
+move()
+turn_left()
+turn_left()
+turn_left()
+move()
+move()
+
+c = count_object()
+cc = what_object()
+repeat("pick_object()", c)
+
+turn_left()
+turn_left()
+turn_left()
+move()
+move()
+
+d = count_object()
+dd = what_object()
+repeat("pick_object()", d)
+
+move()
+turn_left()
+turn_left()
+turn_left()
+move()
+turn_left()
+turn_left()
+turn_left()
+move()
+
+all=a+b+c+d
+
+repeat("put_object(bb)", b)
+
+move()
+say("물건의 총 합은", all)

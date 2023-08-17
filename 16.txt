@@ -1,0 +1,11 @@
+move()
+a = count_object()
+repeat("pick_object()", a)
+
+move()
+move()
+repeat("put_object('호박')", a)
+
+
+move()
+set_color("blue")

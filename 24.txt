@@ -1,0 +1,20 @@
+def turn_right() :
+	repeat("turn_left()", 3)
+
+def turn_around() :
+	repeat("turn_left()", 2)
+
+a = front_is_clear()
+
+if a == True :
+	print("앞쪽 탈출 가능")
+	
+if a == False :
+	print("앞쪽 탈출 불가능")
+
+
+turn_around()
+move()
+turn_right()
+move()
+set_color("blue")

@@ -1,0 +1,21 @@
+def find_door() :
+  	a = front_is_door()
+  	if a == True :
+  		open_door()
+		move()
+  	else :
+  		turn_left()
+
+def turn_right() :
+	repeat("turn_left()",3)
+
+find_door()
+find_door()
+find_door()
+find_door()
+turn_right()
+move()
+turn_right()
+move()
+move()
+set_color("blue")

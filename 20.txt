@@ -1,0 +1,26 @@
+def turn_right() :
+	repeat("turn_left()", 3)
+
+def turn_around() :
+	repeat("turn_left()", 2)
+
+
+
+
+a = front_is_clear()
+popup("앞쪽 탈출 가능 = ", a)
+
+b = left_is_clear() 
+popup("왼쪽 탈출 가능 = ", b)
+
+c = right_is_clear()
+popup("오른쪽 탈출 가능 = ", c)
+
+d = back_is_clear()
+popup("뒤쪽 탈출 가능 = ", d)
+
+turn_right()
+move()
+turn_right()
+move()
+pick_object()

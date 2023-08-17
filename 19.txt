@@ -1,0 +1,12 @@
+move()
+a = count_beeper()
+repeat("pick_beeper()", a)
+move()
+b = count_beeper()
+repeat("pick_beeper()", b)
+print( a*b )
+move()
+all=a*b
+repeat("put_beeper()", all)
+move()
+pick_object()

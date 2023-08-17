@@ -1,0 +1,22 @@
+def turn_right() :
+	repeat("turn_left()", 3)
+
+def turn_around() :
+	repeat("turn_left()", 2)
+
+
+
+
+a = front_is_door()
+popup("앞쪽 문 = ", a)
+
+b = left_is_door() 
+popup("왼쪽 문 = ", b)
+
+c = right_is_door()
+popup("오른쪽 문 = ", c)
+
+d = back_is_door()
+popup("뒤쪽 문 = ", d)
+turn_left()
+set_color("red")

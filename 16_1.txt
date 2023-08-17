@@ -1,0 +1,19 @@
+move()
+a = count_object()
+repeat("pick_object()", a)
+move()
+b = count_object()
+repeat("pick_object()", b)
+move()
+c = count_object()
+repeat("pick_object()", c)
+
+all=a+b+c
+
+move()
+move()
+move()
+print(all)
+
+
+put_object("도착")

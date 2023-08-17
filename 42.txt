@@ -1,0 +1,13 @@
+a=[]
+a.append("유재석")
+a.append("강호동")
+a.append("신동엽")
+a.append("김연아")
+a.append("손연재")
+b=len(a)
+print("좋아하는 연애인은",b,"명 입니다.")
+for i in range(0,b) :
+	print(a[i])
+	set_text(i)
+	move()
+put_object("도착")
